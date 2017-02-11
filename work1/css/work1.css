@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*共同部分*/
+body{margin:0;padding:0;color:#fff;font-size:14px;}
+a{color:#66F;text-decoration:none;}
+#bg img{position:fixed;width:100%;height:100%;z-index:-1}
+#content{position:fixed;width:100%;height:100%;overflow-y:scroll;}
+#content_bg{width:70%;background:rgba(204,204,204,0.2);margin:40px auto;padding:50px 80px;}
+.p1{text-indent:2em;margin:0;line-height:30px;}
+
+/*首页*/
+#content_txt{margin-bottom:80px;}
+#content_txt h1 a{font-size:14px;margin-left:20px;}
+#content_txt h1 img{width:20px;height:20px;margin-right:20px;}
+#content_list{font-size:10px;}
+#content_list a{margin:10px;font-weight:bold;}
+#content_list a:hover{color:#33F;}
+#content_img{margin-top:60px;}
+#content_img a{margin-right:140px;margin-left:10px;}
+#content_img p{display:inline-block;margin-right:140px;margin-left:100px;}
+.con p:hover{background:rgba(255,255,102,0.2)}
+#content_img img:hover{transform:translate(50px);transition:transform .45s;}
+.mark{height:640px;}
+.mark1{height:740px;}
+.mark2{height:690px;}
+.mark3{height:890px;}
+.dygg{height:560px;}
+.dongye1{height:530px;}
+.dongye2{height:1800px;}
+.dongye3{height:960px;}
+.cscs{height:560px;}
+.cscs1{height:1090px;}
+.cscs2{height:620px;}
+.cscs3{height:680px;}
+#return a{position:fixed;left:40px;width:40px;height:36px;color:#fff;background:rgba(204,204,204,0.2);text-align:center;padding-top:4px;}
+#return .first{bottom:50px;}
+#jiantou{width:60px;position:relative;bottom:126px;left:38px;}
+#jiantou img{width:60px;height:40px;}
