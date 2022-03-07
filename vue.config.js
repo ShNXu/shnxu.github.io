@@ -4,5 +4,6 @@ module.exports = defineConfig({
   assetsDir: 'assets',
   publicPath: './',
   outputDir: 'dist',
-  runtimeCompiler: true
+  runtimeCompiler: true,
+  indexPath: 'index.html'
 })
